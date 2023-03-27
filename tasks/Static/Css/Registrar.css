@@ -1,0 +1,66 @@
+body {
+  background-color:  #202732; /* Color de fondo azul suave */
+  font-family: sans-serif;
+}
+
+h2 {
+  color: #FFFFFF; /* Color del texto blanco */
+  text-align: center;
+  margin-top: 30px;
+}
+
+form {
+  background-color: #FFFFFF; /* Color del formulario blanco */
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 30px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #CCCCCC;
+  margin-top: 5px;
+}
+
+input[type="submit"] {
+  background-color: #4285F4; /* Color del botón azul */
+  color: #FFFFFF; /* Color del texto blanco */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out; /* Transición de color de fondo */
+}
+
+input[type="submit"]:hover {
+  background-color: #3367D6; /* Color del botón azul más oscuro en el hover */
+}
+
+p {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+a {
+  color: #4285F4; /* Color del enlace azul */
+  text-decoration: none;
+  transition: color 0.3s ease-in-out; /* Transición de color */
+}
+
+a:hover {
+  color: #3367D6; /* Color del enlace azul más oscuro en el hover */
+}
